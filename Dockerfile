@@ -1,4 +1,4 @@
 FROM scratch
-ADD  . /
+ADD  it2s-socket-amd64 /
 EXPOSE 4000
-ENTRYPOINT ["./main"]
+ENTRYPOINT ["./it2s-socket-amd64"]
